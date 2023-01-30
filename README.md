@@ -1,4 +1,4 @@
-# Renna Lab's Prettier Config
+# Renna Labs' Prettier Config
 
 [![npm version](https://badge.fury.io/js/@rennalabs%2Fprettier-config.svg)](https://badge.fury.io/js/@rennalabs%2Fprettier-config)
 
@@ -6,7 +6,7 @@ Pairs well with our [ESLint config](https://www.npmjs.com/package/@rennalabs/esl
 
 ## Table of Contents
 
--   [Renna Lab's Prettier Config](#rennalabs-prettier-config)
+-   [Renna Labs' Prettier Config](#rennalabs-prettier-config)
     -   [Table of Contents](#table-of-contents)
     -   [Installation](#installation)
     -   [Configurations](#configurations)
