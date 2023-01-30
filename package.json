@@ -1,0 +1,27 @@
+{
+    "name": "@rennalabs/prettier-config",
+    "version": "1.0.0",
+    "description": "Renna Lab's base prettier configuration",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Renna-Labs/prettier-config.git"
+    },
+    "keywords": [
+        "prettier",
+        "config"
+    ],
+    "author": {
+        "name": "Renna-Labs",
+        "email": "tech@rennalabs.xyz",
+        "twitter": "@rennalabs"
+    },
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Renna-Labs/prettier-config/issues"
+    },
+    "homepage": "https://github.com/Renna-Labs/prettier-config#readme",
+    "dependencies": {
+        "prettier": "^2.x.x"
+    }
+}
