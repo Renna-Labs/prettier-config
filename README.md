@@ -41,9 +41,9 @@ Pairs well with our [ESLint config](https://www.npmjs.com/package/@rennalabs/esl
 
 ## Configurations
 
-We export two ESLint configurations for your usage:
+We export one main ESLint configuration for your usage:
 
-1. [Default (2 space)](#default-config)
+1. [Default](#default-config)
 
 ### Default Config
 
@@ -177,7 +177,7 @@ Line wrap at 100 characters.
 <details>
   <summary>Tab Width</summary>
 
-2 spaces per indentation-level (or 4 spaces if you choose).
+4 spaces per indentation-level
 
 </details>
 
