@@ -62,7 +62,7 @@ Includes everything in the default config, but replaces the `tabWidth` rule with
 In your `prettier.config.js`:
 
 ```js
-module.exports = require('@upstatement/prettier-config/four-spaces');
+module.exports = require('@rennalabs/prettier-config/four-spaces');
 ```
 
 ## [Editor Integration](https://prettier.io/docs/en/editors.html) & Autoformatting
