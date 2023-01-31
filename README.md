@@ -11,6 +11,7 @@ Pairs well with our [ESLint config](https://www.npmjs.com/package/@rennalabs/esl
     -   [Installation](#installation)
     -   [Configurations](#configurations)
         -   [Default Config](#default-config)
+        -   [Four Spaces Config](#four-spaces-config)
     -   [Editor Integration & Autoformatting](#editor-integration--autoformatting)
         -   [VS Code](#vs-code)
         -   [Sublime Text 3](#sublime-text-3)
@@ -41,9 +42,10 @@ Pairs well with our [ESLint config](https://www.npmjs.com/package/@rennalabs/esl
 
 ## Configurations
 
-We export one main ESLint configuration for your usage:
+We export two ESLint configurations for your usage:
 
 1. [Default](#default-config)
+2. [Four Spaces](#four-spaces-config)
 
 ### Default Config
 
@@ -51,6 +53,16 @@ In your `prettier.config.js`:
 
 ```js
 module.exports = require('@rennalabs/prettier-config');
+```
+
+### Four Spaces Config
+
+Includes everything in the default config, but replaces the `tabWidth` rule with 4 spaces instead of 2 spaces.
+
+In your `prettier.config.js`:
+
+```js
+module.exports = require('@upstatement/prettier-config/four-spaces');
 ```
 
 ## [Editor Integration](https://prettier.io/docs/en/editors.html) & Autoformatting
